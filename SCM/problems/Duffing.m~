@@ -1,0 +1,16 @@
+function dxdt = Duffing(t,x,k,alpha,B)
+dxdt = zeros(2,1);
+dxdt(1) = x(2);
+dxdt(2) = -k*x(2) - alpha*x(1) - x(1)^3 + B*cos(t);
+
+\begin{eqnarray}
+  \frac{\dd}{\dd t}X &=& \sigma(Y-X)\\
+  \frac{\dd}{\dd t}Y &=& -XZ + rX -Y \\
+  \frac{\dd}{\dd t}Z &=& XY - bZ
+\end{eqnarray}
+
+\begin{eqnarray}
+  \frac{\dd}{\dd t}X &=& x_2\\
+  \frac{\dd}{\dd t}Y &=& -kx_2 - \alpha x_1 - x_1^3 + B\cos{t} \\
+  \frac{\dd}{\dd t}Z &=& XY - bZ
+\end{eqnarray}

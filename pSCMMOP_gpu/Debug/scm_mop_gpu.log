@@ -1,0 +1,210 @@
+﻿Build started 4/5/2014 9:05:51 PM.
+     1>Project "F:\SCMParallel\scm_mop_gpu\scm_mop_gpu.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         G:\visual studio\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\common\inc" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I. /FIcuda_runtime.h /c F:\SCMParallel\scm_mop_gpu\scm_mop.cu 
+       CudaBuild:
+         Compiling CUDA source file scm_mop.cu...
+         cmd.exe /C "C:\Users\Fu-Rui Xiong\AppData\Local\Temp\tmp033572c871cc450588f6617d561954a5.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2012 -ccbin "G:\visual studio\VC\bin"  -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\common\inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\scm_mop.cu.obj "F:\SCMParallel\scm_mop_gpu\scm_mop.cu"
+         
+         F:\SCMParallel\scm_mop_gpu>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2012 -ccbin "G:\visual studio\VC\bin"  -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\common\inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\scm_mop.cu.obj "F:\SCMParallel\scm_mop_gpu\scm_mop.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(870): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(2747): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(4610): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(5501): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(6407): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(7316): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h(1659): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(870): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(2747): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(4610): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(5501): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(6407): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(7316): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(870): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(2747): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(4610): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(5501): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(6407): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(7316): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h(1659): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(870): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(2747): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(4610): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(5501): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(6407): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(7316): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h(783): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h(1659): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\sm_13_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>f:\scmparallel\scm_mop_gpu\cell.cuh(106): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>G:\visual studio\VC\include\stdio.h(245): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(298): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(305): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(309): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(323): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(350): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(358): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(459): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(469): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(475): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(532): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\swprintf.inl(45): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\swprintf.inl(53): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\swprintf.inl(69): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\swprintf.inl(77): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\swprintf.inl(93): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\swprintf.inl(101): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\swprintf.inl(113): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\swprintf.inl(121): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\swprintf.inl(123): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(584): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdio.h(724): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xstddef(1126): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xstddef(1127): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\eh.h(82): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\malloc.h(210): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\malloc.h(258): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\malloc.h(294): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\exception(562): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\exception(563): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\ymath.h(68): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\float.h(87): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\wchar.h(1258): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\wchar.h(1268): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\wchar.h(1300): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\limits(1506): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\limits(1507): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\new(106): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\new(107): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\crtdbg.h(1091): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\iosfwd(729): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\iosfwd(730): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xrefwrap(922): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\type_traits(1822): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xrefwrap(923): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\type_traits(1823): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\utility(425): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\utility(426): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xutility(3667): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xutility(3668): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xatomic0.h(314): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xatomic0.h(315): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\setjmp.h(177): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\setjmp.h(182): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xmemory0(954): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xmemory0(955): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xstring(2313): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xstring(2314): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\stdexcept(277): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\stdexcept(278): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\typeinfo(208): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\typeinfo(207): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\locale.h(135): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xlocinfo.h(156): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xlocinfo.h(157): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xlocinfo(298): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xlocinfo(299): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xmemory(977): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xmemory(978): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xdebug(77): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xdebug(78): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xfacet(42): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xfacet(43): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xlocale(248): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xlocale(751): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xlocale(842): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xlocale(2093): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xlocale(3066): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xlocale(3067): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\system_error(684): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\system_error(685): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xiosbase(660): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xiosbase(661): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\streambuf(667): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\streambuf(668): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xlocnum(1592): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xlocnum(1593): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\ios(362): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\ios(363): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\ostream(1110): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\ostream(1111): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\istream(1235): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\istream(1236): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\iostream(47): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\iostream(48): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xlocmon(973): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xlocmon(974): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xloctime(1007): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\xloctime(1008): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\iomanip(290): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\iomanip(291): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\fstream(618): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+                 G:\visual studio\VC\include\fstream(711) : see reference to class template instantiation 'std::basic_filebuf<_Elem,_Traits>' being compiled
+     1>G:\visual studio\VC\include\fstream(1350): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>G:\visual studio\VC\include\fstream(1351): warning C4086: expected pragma parameter to be '1', '2', '4', '8', or '16'
+     1>G:\visual studio\VC\include\xlocale(717): warning C4616: #pragma warning : warning number '243' not a valid compiler warning
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(870): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(1846): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(2747): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(3698): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(4610): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(5501): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(6407): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\math_functions.h(7316): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+                 G:\visual studio\VC\include\xlocnum(171) : see reference to function template instantiation '_Elem *std::_Maklocstr<char>(const char *,_Elem *,const std::_Locinfo::_Cvtvec &)' being compiled
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 G:\visual studio\VC\include\xlocnum(162) : while compiling class template member function 'void std::numpunct<_Elem>::_Init(const std::_Locinfo &,bool)'
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 G:\visual studio\VC\include\xlocnum(121) : see reference to function template instantiation 'void std::numpunct<_Elem>::_Init(const std::_Locinfo &,bool)' being compiled
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 G:\visual studio\VC\include\xlocnum(1574) : see reference to class template instantiation 'std::numpunct<_Elem>' being compiled
+                 with
+                 [
+                     _Elem=char
+                 ]
+       Link:
+         G:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\SCMParallel\scm_mop_gpu\Debug\scm_mop_gpu.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\SCMParallel\scm_mop_gpu\Debug\scm_mop_gpu.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\SCMParallel\scm_mop_gpu\Debug\scm_mop_gpu.lib" /MACHINE:X86 Debug\scm_mop.cu.obj
+         scm_mop_gpu.vcxproj -> F:\SCMParallel\scm_mop_gpu\Debug\scm_mop_gpu.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "F:\SCMParallel\scm_mop_gpu\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "F:\SCMParallel\scm_mop_gpu\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "F:\SCMParallel\scm_mop_gpu\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart32_55.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart64_55.dll
+                 2 file(s) copied.
+     1>Done Building Project "F:\SCMParallel\scm_mop_gpu\scm_mop_gpu.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.21
