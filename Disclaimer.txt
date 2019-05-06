@@ -1,4 +1,5 @@
 This repository contains programs in C and Matlab for the book [J.-Q. Sun, F.-R. Xiong, O. Schütze and C. Hernández (2019) Nonlinear Systems and Complexity Luo, A.C.J. (Ed.), Springer, Berlin. "Cell Mapping Methods - Algorithmic Approaches and Applications." ISBN: 978-981-13-0456-9].
 
 The purpose of the programs is to support academic research and teaching. 
-
+There may be bugs in the code. It is not a responsibility of the authors for the errors in users' results.
+Feedback to report the bugs or to update the programs is welcome.
