@@ -1,0 +1,2 @@
+all:
+	g++ -std=c++11 allocate.cpp auxiliary.cpp crossover.cpp crowddist.cpp decode.cpp display.cpp dominance.cpp DTLZ.cpp eval.cpp ExampleProblems.cpp ExampleShapes.cpp ExampleTransitions.cpp fillnds.cpp FrameworkFunctions.cpp initialize.cpp list.cpp merge.cpp Misc.cpp mutation.cpp nsga2r.cpp problemdef.cpp rand.cpp rank.cpp report.cpp ShapeFunctions.cpp sort.cpp tourselect.cpp TransFunctions.cpp -o nsga2

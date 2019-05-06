@@ -1,0 +1,6 @@
+-This is a fully operational MOPSO code using the Makefile.
+-Change the problem number inside main and run the code.
+-PF.txt and PS.txt will be generated as a result.
+-The only drawback is that MOPs are defined by separate functions. This will be fixed in the next version
+-Not parallel
+Yousef Naranjani Feb 23 2016

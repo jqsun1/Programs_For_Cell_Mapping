@@ -1,0 +1,11 @@
+double lb [Dim]= {1e-4,  1e-4,  0.1,  0.01, -2.0,    0.1,  -0.2,  1e-3, 0.0,   0.0,   0.0,  0.0};
+double ub [Dim] ={0.2,   0.2,   0.6,  0.2,  -1e-3, 0.6,  -0.01, 2.0,    0.1, 0.1, 10.0, 20.0};
+int N [Dim] = {5,5,5,5,5,5,5,5,5,5,5,5};
+int subDivSize[Dim]={0,0,0,0,0,0,0,0,0,0,0,0};
+int initCellLen = 10;
+string fcn ("AirfoilPARSEC");
+bool log_gen = true;
+bool interm_result = true;
+bool readFromFile = true;
+double coeff[pps*6];
+double XX[pps];

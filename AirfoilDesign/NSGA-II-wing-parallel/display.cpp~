@@ -1,0 +1,73 @@
+/* Routines to display the population information using gnuplot */
+
+# include <stdio.h>
+# include <stdlib.h>
+# include <math.h>
+# include <string.h>
+# include <unistd.h>
+# include <string>
+# include "global.h"
+# include "rand.h"
+#include <sstream>
+#include <iostream>
+using namespace std;
+extern char    strTestInstance[256];
+extern int iter;
+/* Function to display the current population for the subsequent generation */
+void onthefly_display (population *pop, FILE *gp, int ii)
+{
+	cout << "onthefly_display: start, choice=" << choice << endl;
+	ostringstream oss;	 
+	string str;
+	str.append("NSGA2_");
+	str.append(strTestInstance);
+	str.append("_R");
+	oss << iter;
+	str.append(oss.str());
+	str.append(".dat");
+    int i;
+    int flag;
+    FILE *fpt;
+    fpt = fopen(str.c_str(),"w");
+    cout << str << endl;
+    flag = 0;
+    cout << "onthefly_display: 1" << endl;
+    for (i=0; i<popsize; i++)
+    {
+    	cout << "onthefly_display: 1.01, val=" << pop->ind[i].constr_violation << endl;
+        if (pop->ind[i].constr_violation==0)
+        {
+            if (choice!=3) {
+            cout << "onthefly_display: 1.1 in printing loop" << endl;
+            cout <<pop->ind[i].obj[obj1-1] << ", " << pop->ind[i].obj[obj2-1]<<  endl;
+                fprintf(fpt,"%e\t%e\n",pop->ind[i].obj[obj1-1],pop->ind[i].obj[obj2-1]);
+                cout << "onthefly_display: 1.1 in printing loooooooop" << endl;
+            	
+            }
+            else {
+                fprintf(fpt,"%e\t%e\t%e\n",pop->ind[i].obj[obj1-1],pop->ind[i].obj[obj2-1],pop->ind[i].obj[obj3-1]);
+            }
+            fflush(fpt);
+            flag = 1;
+            cout << "onthefly_display: 1.1 in printing loop flushed" << endl;
+        }
+    }
+    cout << "onthefly_display: 2" << endl;
+    if (flag==0)
+    {
+        printf("\n No feasible soln in this pop, hence no display");
+    }
+    else
+    {
+        if (choice!=3) {
+        cout << "onthefly_display: 3" << endl;
+            fprintf(gp,"set title 'Generation #%d'\n unset key\n plot 'plot.out' w points pointtype 6 pointsize 1\n",ii);
+        }
+        else
+            fprintf(gp,"set title 'Generation #%d'\n set view %d,%d\n unset key\n splot 'plot.out' w points pointtype 6 pointsize 1\n",ii,angle1,angle2);
+        fflush(gp);
+    }
+    fclose(fpt);
+    cout << "onthefly_display: end" << endl;
+    return;
+}

@@ -1,0 +1,24 @@
+   .SUFFIXES: .cpp .f90 .o
+
+TARGET = main
+
+    .f90.o:
+	gfortran -c $<
+    .cpp.o:
+	g++ -c -fopenmp $<
+
+
+    OBJECTS=  nsga2r.o rank.o list.o tourselect.o decode.o Misc.o rand.o problemdef.o TransFunctions.o display.o ExampleProblems.o DTLZ.o crossover.o fillnds.o ExampleShapes.o mutation.o crowddist.o ExampleTransitions.o dominance.o ShapeFunctions.o auxiliary.o allocate.o FrameworkFunctions.o merge.o sort.o eval.o report.o initialize.o fsample.o SolverWing.o xfoil.o iopol.o  naca.o  spline.o  sort.o  userio.o  xbl.o  xblsys.o xgdes.o xgeom.o xoper.o xpanel.o xpol.o xsolve.o xutils.o 
+    #mainLoop.o xfoil.o iopol.o  naca.o  spline.o  sort.o  userio.o  xbl.o  xblsys.o xgdes.o xgeom.o xoper.o xpanel.o xpol.o xsolve.o xutils.o 
+
+
+    programs: $(OBJECTS)
+	g++ $(OBJECTS)  -o $(TARGET)  -lgfortran -fopenmp 
+
+
+clean:
+	rm *.o
+	$(RM) $(TARGET)
+
+
+

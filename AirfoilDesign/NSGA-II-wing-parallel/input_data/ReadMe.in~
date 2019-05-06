@@ -1,0 +1,42 @@
+problem name:							airfoil
+population size (multiple of 4):		24
+generations(>1):						4
+# of objectives:					2
+# of constraints:					0
+# of real variables:				30
+min and max of 1st real var:		0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+0 1
+min and max of last real var:		0 1
+crossover probability (0.6-1.0)		0.9
+mutation probability (0.0-1.0)		0.033
+distribution index of crossover15
+20
+0
+0

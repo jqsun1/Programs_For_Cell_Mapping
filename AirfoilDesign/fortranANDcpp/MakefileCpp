@@ -1,0 +1,24 @@
+# the compiler: gcc for C program, define as g++ for C++
+CC = g++
+# compiler flags:
+#  -g    adds debugging information to the executable file
+#  -Wall turns on most, but not all, compiler warnings
+#  -fopenmp	for using openMP 
+CFLAGS  = -fopenmp -lm
+
+# define any libraries to link into executable:
+#   if I want to link in libraries (libx.so or libx.a) I use the -llibname 
+#   option, something like (this will link in libmylib.so and libm.so:
+# LIBS = -lgmp   and add this at the end of the main command: #$(LIBS)
+
+
+# the build target executable:
+TARGET = mainSolverCall
+all: $(TARGET)
+
+$(TARGET): $(TARGET).cpp
+	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp 
+#EASCMmake: EASCM.c
+#	g++ -fopenmp -o EASCMmake EASCM.c -I.
+clean:
+	$(RM) $(TARGET)

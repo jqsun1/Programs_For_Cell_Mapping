@@ -1,0 +1,110 @@
+/***************************************************************************
+                          main.cpp  -  description
+                             -------------------
+    begin                : Sun Jan 28 14:04:34 CST 2001
+    copyright            : (C) 2001 by Max Salazar
+    email                : max@maxnet.cc
+ ***************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+
+//#ifdef HAVE_CONFIG_H
+//#include <config.h>
+//#endif
+
+#include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+//unsigned int CONT_FUN = 0;
+
+#include <string.h>
+#include <math.h>
+#include <time.h>
+#include "SolverWing.h"
+
+double pM=0.05;//10300 0.1 10400 10500 0.1
+
+float lb [Dim]= {1e-4,  1e-4,  0.1,  0.01, -2,    0.1,  -0.2,  1e-3, 0,   0,   0,  0};
+float ub [Dim] ={0.2,   0.2,   0.6,  0.2,  -1e-3, 0.6,  -0.01, 2,    0.1, 0.1, 10, 20};
+int N [Dim] = {5,5,5,5,5,5,5,5,5,5,5,5};
+int subDivSize[Dim]={0,0,0,0,0,0,0,0,0,0,0,0};
+int initCellLen = 10;
+//string fcn ("AirfoilPARSEC");
+bool log_gen = true;
+bool interm_result = true;
+bool readFromFile = true;
+
+
+#include "randomlib.h"
+#include "fun-res.h"
+#include "fun-eng.h"
+#include "fun-SR.h"
+#include "fun-moo.h"
+//#include <estructuras.h>
+#include "variables.h"
+#include "psolib.h"
+#include "mainlib.h"
+
+using namespace std;
+
+double coeff[pps*6];
+double XX[pps];
+
+
+
+int main(int argc, char *argv[])
+{
+	unsigned int funcion, particulas, ciclos, optimizacion, MEM, ndiv, i;
+	char arch1[20];
+	clock_t  now, later, total_time;
+	double   passed=0.0;
+	//FILE *time;
+ 	parsec2pointsPrep( XX, coeff, pps); //for the airfoil problem
+	//time = fopen("time3.dat","w");
+	
+	/* Function to be optimized
+	   Single objective with no constraints:
+	   9,10,11
+	   Single objective with constraints:
+	   1,2,3,4,5,6
+	   Engineering functions:
+	   7,8
+	   Multi objective with no constraints:
+	   100,200,300,400,500,*600,700,*800,900,1000
+
+	   10100 50 0.05//kita
+	   10300 80 0.05//truss *
+	   10400 100 //deb2
+	   10500 40 0.05//deb
+	   200 120 0.05//kursawe
+	*/
+	funcion = 20300;
+	// Number of particles
+	particulas = 500;
+	// Number of cycles
+	ciclos = 300;
+	// If minimization = 0, if maximization = 1
+	optimizacion = 0;
+	//Memory size
+	MEM = 500;
+	//Divisions of space
+	ndiv = 100;
+
+	sprintf(arch1,"PF.dat");
+
+	now = clock();
+	//PSO
+	vuelo(funcion, particulas, ciclos, optimizacion, num_dim(funcion), num_fun(funcion), MEM, ndiv, arch1);
+	total_time = clock() - now;
+	cout<<"Done!"<<endl;
+	cout << "It took me "<<total_time <<" clicks (" << ((float)total_time)/CLOCKS_PER_SEC<< " seconds)."<< endl;
+
+  return EXIT_SUCCESS;
+}

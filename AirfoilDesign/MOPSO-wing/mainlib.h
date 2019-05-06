@@ -1,0 +1,234 @@
+/***************************************************************************
+                          mainlib.h  -  description
+                             -------------------
+    begin                : Sun Jan 28 2001
+    copyright            : (C) 2001 by Max Salazar
+    email                : max@maxnet.cc
+ ***************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+#include <iostream>
+#include "SolverWing.h"
+using namespace std;
+
+void vuelo(unsigned int fun, unsigned int M, unsigned int Gmax, unsigned int opt, unsigned int D, unsigned int NF, unsigned int MEM, unsigned int ndiv, char *cad) {
+
+  unsigned int h, i, j, t, rest, Gbestpos, gbestpos, GT, lastPart = 0, maxCube = (unsigned int) pow(ndiv, NF);
+
+  double Gbest, gbest, x, passed;
+  double *pop, *pbests, *vel, *fitness, *fbests;
+  double *noDomP, *noDomF;
+  double *amp, *start;
+  unsigned int  *linf, *lsup, *hyperspace, *partPos;
+  unsigned int *hyperPoolL, poolC;
+  double *hyperPoolF, hypsum;
+  hyperPoolL = new unsigned int[MEM];
+  hyperPoolF = new double[MEM];
+  clock_t  now, later;
+  //MPTR noDom;
+  //DSPTR aux;
+  //DPTR auxV;
+  pop = new double [M * D];
+  pbests = new double [M * D];
+  vel = new double [M * D];
+  fitness = new double [M * NF];
+  fbests = new double [M * NF];
+  noDomP = new double [MEM * D];
+  noDomF = new double[MEM * NF];
+  ///
+  amp = new double [NF];
+  start = new double [NF];
+  linf = new unsigned int[NF];
+  lsup = new unsigned int[NF];
+  hyperspace = new unsigned int[maxCube];
+  partPos = new unsigned int[MEM];
+  //cambio por gtp 25 junio 2002
+  unsigned int *selec= new unsigned int[80/10];
+  bool state=false;
+  //fin cambio	
+  //cout << "Inicializacion..." << endl;
+	
+  ////////////////////////////
+  //Variables Initialization//
+  ////////////////////////////
+  /*
+    Handle the seed range erraaors
+    i = First random number seed must be between 0 and 31328
+    j = Second seed must have a value between 0 and 30081
+  */
+  srand((unsigned int)time((time_t *)NULL));
+  i = (unsigned int) (31329.0 * rand() / (RAND_MAX + 1.0));
+  j = (unsigned int) (30082.0 * rand() / (RAND_MAX + 1.0));
+  //i = 1;
+  //j = 100;
+  RandomInitialise(i,j);
+
+  now = clock();
+  //Number of constraints
+  rest = num_rest(fun);
+  //Number of generations
+  t = 0;
+  //Generating random particles
+  initpop(pop, fun, M, D);
+  //Initializing particle velocity
+  for(i = 0; i < M; i++)
+    for(j = 0; j < D; j++)
+      vel[(D * i) + j] = 0.0;
+  //Evaluating the particles
+  evaluation(pop, fitness, M, D, fun, NF);
+  //Copy the values to memory
+  copy_array(fitness, fbests, M * NF);
+  copy_array(pop, pbests, M * D);
+  cout << "Array copy completed!" << endl;
+  if (NF == 1) {
+    //Overall best
+    gbestpos = search_opt_cons(fitness, M, D, rest, fun, pop, opt);
+    gbest = fitness[gbestpos];
+    Gbestpos = gbestpos;
+    Gbest = fitness[Gbestpos];
+    x = Gbest;
+    GT = 0;
+    cout << "Best initial particles: " << gbest << endl;
+    cout << "Global best initial particles: " << Gbest<< endl;
+    cout << "----------------------------------------------" << endl;
+  }
+  else {
+    //Search for all particles that are not dominated and insert into the repository.
+    search_insert(noDomP, noDomF, pop, fitness, D, NF, M, MEM, opt, &lastPart,fun);
+    cout << "search_insert completed!" << endl;
+    //It divides the search space explored so far and the position of the particles investigated in it.
+    makeHyper(noDomF, linf, lsup, amp, start, hyperspace, partPos, ndiv, MEM, NF, lastPart, maxCube);
+    cout << "makeHyper completed!" << endl;
+  }
+  
+  
+  
+  /////////////////////////////
+  //***** Flight Cycles *****//
+  /////////////////////////////
+  do {
+    cout << "Iteration: " << t << endl; 
+    //the new speed of each particle is obtained
+    if (NF == 1) {
+    	for(i = 0; i < M; i++)
+			for(j = 0; j < D; j++)
+				vel[(D * i) + j] = velocity(0.4, vel[(D * i) + j], 2.0, 2.0, 
+					pbests[(D * i) + j], pbests[(D * Gbestpos) + j], 
+					pop[(D * i) + j]);
+    }
+    else {
+    	hyperFit(hyperspace, hyperPoolL, hyperPoolF, &hypsum, maxCube, &poolC);
+    	state=false;
+    	for(i = 0; i < M; i++) {
+			if(state==false) { 
+				state=true;
+			}
+			h = lead(hyperspace, hyperPoolL, partPos, hyperPoolF, hypsum, lastPart, poolC);
+			for(j = 0; j < D; j++) {
+				vel[(D * i) + j] = velocity(0.4, vel[(D * i) + j], 1.0, 1.0, 
+					pbests[(D * i) + j], noDomP[(D * h) + j], pop[(D * i) + j]);
+			}
+    	}
+    }
+    
+    //new positions are calculated
+    for(i = 0; i < M; i++)
+    	for(j = 0; j < D; j++)
+			pop[(D * i) + j] =	pop[(D * i) + j] + vel[(D * i) + j];
+					
+    //The particles within the space is kept
+    keepin(pop, vel, fun, M, D);
+    
+    //Mutating each of the particles
+    if(t<Gmax*pM)
+    	muta(pop, M, D,t,Gmax,fun);
+    
+    //Evaluating each particle
+    evaluation(pop, fitness, M, D, fun, NF);
+	 	
+    if (NF == 1) {
+    	//The best position of each particle are updated
+    	ifbest_interchange(fitness, pop, fbests, pbests, M, D, fun, rest, opt);
+     		
+    	//Getting the best of the cycle
+    	gbestpos = search_opt_cons(fitness, M, D, rest, fun, pop, opt);
+    	gbest = fitness[gbestpos];
+
+    	//Seeking the best leader 		
+    	Gbestpos = search_opt_cons(fbests, M, D, rest, fun, pbests, opt);
+    	Gbest = fbests[Gbestpos];
+    	if (Gbest != x) {
+			GT = t + 1;
+			x = Gbest;
+      	}
+     		
+    	cout << "Cycle #"<< t + 1 << endl;
+    	cout << "Best particel of the cycle: " << gbest << endl;
+    	//cout << "Best particel of the cycle >: " << chfun(&pop[D * gbestpos], fun) << endl;
+    	cout << "Best global particle: " << Gbest << endl;
+    	//cout << "Best global particle >: " << chfun(&pbests[D * Gbestpos], fun) << endl;
+    	cout << "------" << endl;
+    	cout << "----------------------------------------------" << endl;
+    }
+    else {
+    	search_insert2(noDomP, noDomF, pop, fitness, linf, lsup, amp, start, 
+    		hyperspace, partPos, ndiv, D, NF, M, MEM, opt, maxCube, &lastPart,fun);
+		ifbest_interchange_moo(fitness, pop, fbests, pbests, M, D, NF, opt,fun);
+		if (t%2 == 0)
+			mo_out(noDomF, lastPart, NF, cad, pop, D, t);
+    }
+    //Updating the generation counter
+    t++;
+  } while (Gmax-1 > t);
+  //****** End of the loop *****//
+
+
+  if (NF == 1) {
+  	//Best Global Particles
+    cout << endl << "Mejor particula Global: " << Gbest << endl;
+    //cout << "Mejor particula Global >: " << chfun(&pbests[D * Gbestpos], fun) << endl;
+    cout << "Puntos: " << endl;
+    for(i = 0; i < D; ++i) {
+    	cout << "x"<< i+1 << ": " << pbests[(D * Gbestpos) + i] << endl;
+    }
+    cout << "Generacion: " << GT << endl;
+    cout << "Restricciones: " << endl;
+    for(i = 0; i < rest; ++i) {
+    	cout << "g"<< i+1 << ": " << chconst(&pbests[D * Gbestpos], fun, i + 1) << endl;
+    }
+  }
+  else {
+  	mo_out(noDomF, lastPart, NF, cad, pop, D, t);
+  }
+  later = clock();
+  passed = ( later - now ) / (double)CLOCKS_PER_SEC;
+  
+  //delete [] noDomF;
+  //delete [] noDomP;
+  delete [] pop;
+  delete [] pbests;
+  delete [] vel;
+  delete [] fitness;
+  delete [] fbests;
+  delete [] noDomP;
+  delete [] noDomF;
+  delete [] amp;
+  delete [] start;
+  delete [] linf;
+  delete [] lsup;
+  delete [] hyperspace;
+  delete [] partPos;
+  delete [] hyperPoolL;
+  delete [] hyperPoolF;
+  //cambio gtp 25 junio 2002
+  delete [] selec;
+  //end cambio
+  //cout << "Hola3" << endl;
+}

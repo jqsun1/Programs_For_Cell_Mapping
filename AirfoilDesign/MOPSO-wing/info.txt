@@ -1,0 +1,2 @@
+40 particles, 20 cycles => 1678.23sec
+

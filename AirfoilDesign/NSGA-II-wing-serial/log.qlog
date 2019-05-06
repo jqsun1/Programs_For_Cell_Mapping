@@ -1,0 +1,524 @@
+
+ Enter the problem relevant and algorithm relevant parameters ... 
+ Enter the problem name: 
+ Enter the population size (a multiple of 4) : 
+ Enter the number of generations : 
+ Enter the number of objectives : 
+ Enter the number of constraints : 
+ Enter the number of real variables : 
+ Enter the lower limit of real variable 1 : 
+ Enter the upper limit of real variable 1 : 
+ Enter the lower limit of real variable 2 : 
+ Enter the upper limit of real variable 2 : 
+ Enter the lower limit of real variable 3 : 
+ Enter the upper limit of real variable 3 : 
+ Enter the lower limit of real variable 4 : 
+ Enter the upper limit of real variable 4 : 
+ Enter the lower limit of real variable 5 : 
+ Enter the upper limit of real variable 5 : 
+ Enter the lower limit of real variable 6 : 
+ Enter the upper limit of real variable 6 : 
+ Enter the lower limit of real variable 7 : 
+ Enter the upper limit of real variable 7 : 
+ Enter the lower limit of real variable 8 : 
+ Enter the upper limit of real variable 8 : 
+ Enter the lower limit of real variable 9 : 
+ Enter the upper limit of real variable 9 : 
+ Enter the lower limit of real variable 10 : 
+ Enter the upper limit of real variable 10 : 
+ Enter the lower limit of real variable 11 : 
+ Enter the upper limit of real variable 11 : 
+ Enter the lower limit of real variable 12 : 
+ Enter the upper limit of real variable 12 : 
+ Enter the probability of crossover of real variable (0.6-1.0) : 
+ Enter the probablity of mutation of real variables (1/nreal) : 
+ Enter the value of distribution index for crossover (5-20): 
+ Enter the value of distribution index for mutation (5-50): 
+ Enter the number of binary variables : 
+ Do you want to use gnuplot to display the results realtime (0 for NO) (1 for yes) : 
+ Input data successfully entered, now performing initialization 
+***TEST MESSAGE:1***
+***TEST MESSAGE:2***
+***TEST MESSAGE:3***
+***TEST MESSAGE:4***
+***TEST MESSAGE:5***
+***TEST MESSAGE:6***
+***TEST MESSAGE:7***
+***TEST MESSAGE:8***
+***TEST MESSAGE:9***
+
+ Initialization done, now performing first generation***TEST MESSAGE:11***
+***TEST MESSAGE:12***
+***TEST MESSAGE:13***
+
+ gen = 1***TEST MESSAGE:14***
+***TEST MESSAGE:15***
+***TEST MESSAGE:16***
+***GENERATION: 2 ***
+
+ gen = 2***GENERATION: 3 ***
+
+ gen = 3***GENERATION: 4 ***
+
+ gen = 4***GENERATION: 5 ***
+
+ gen = 5***GENERATION: 6 ***
+
+ gen = 6***GENERATION: 7 ***
+
+ gen = 7***GENERATION: 8 ***
+
+ gen = 8***GENERATION: 9 ***
+
+ gen = 9***GENERATION: 10 ***
+
+ gen = 10***GENERATION: 11 ***
+
+ gen = 11***GENERATION: 12 ***
+
+ gen = 12***GENERATION: 13 ***
+
+ gen = 13***GENERATION: 14 ***
+
+ gen = 14***GENERATION: 15 ***
+
+ gen = 15***GENERATION: 16 ***
+
+ gen = 16***GENERATION: 17 ***
+
+ gen = 17***GENERATION: 18 ***
+
+ gen = 18***GENERATION: 19 ***
+
+ gen = 19***GENERATION: 20 ***
+
+ gen = 20***GENERATION: 21 ***
+
+ gen = 21***GENERATION: 22 ***
+
+ gen = 22***GENERATION: 23 ***
+
+ gen = 23***GENERATION: 24 ***
+
+ gen = 24***GENERATION: 25 ***
+
+ gen = 25***GENERATION: 26 ***
+
+ gen = 26***GENERATION: 27 ***
+
+ gen = 27***GENERATION: 28 ***
+
+ gen = 28***GENERATION: 29 ***
+
+ gen = 29***GENERATION: 30 ***
+
+ gen = 30***GENERATION: 31 ***
+
+ gen = 31***GENERATION: 32 ***
+
+ gen = 32***GENERATION: 33 ***
+
+ gen = 33***GENERATION: 34 ***
+
+ gen = 34***GENERATION: 35 ***
+
+ gen = 35***GENERATION: 36 ***
+
+ gen = 36***GENERATION: 37 ***
+
+ gen = 37***GENERATION: 38 ***
+
+ gen = 38***GENERATION: 39 ***
+
+ gen = 39***GENERATION: 40 ***
+
+ gen = 40***GENERATION: 41 ***
+
+ gen = 41***GENERATION: 42 ***
+
+ gen = 42***GENERATION: 43 ***
+
+ gen = 43***GENERATION: 44 ***
+
+ gen = 44***GENERATION: 45 ***
+
+ gen = 45***GENERATION: 46 ***
+
+ gen = 46***GENERATION: 47 ***
+
+ gen = 47***GENERATION: 48 ***
+
+ gen = 48***GENERATION: 49 ***
+
+ gen = 49***GENERATION: 50 ***
+
+ gen = 50***GENERATION: 51 ***
+
+ gen = 51***GENERATION: 52 ***
+
+ gen = 52***GENERATION: 53 ***
+
+ gen = 53***GENERATION: 54 ***
+
+ gen = 54***GENERATION: 55 ***
+
+ gen = 55***GENERATION: 56 ***
+
+ gen = 56***GENERATION: 57 ***
+
+ gen = 57***GENERATION: 58 ***
+
+ gen = 58***GENERATION: 59 ***
+
+ gen = 59***GENERATION: 60 ***
+
+ gen = 60***GENERATION: 61 ***
+
+ gen = 61***GENERATION: 62 ***
+
+ gen = 62***GENERATION: 63 ***
+
+ gen = 63***GENERATION: 64 ***
+
+ gen = 64***GENERATION: 65 ***
+
+ gen = 65***GENERATION: 66 ***
+
+ gen = 66***GENERATION: 67 ***
+
+ gen = 67***GENERATION: 68 ***
+
+ gen = 68***GENERATION: 69 ***
+
+ gen = 69***GENERATION: 70 ***
+
+ gen = 70***GENERATION: 71 ***
+
+ gen = 71***GENERATION: 72 ***
+
+ gen = 72***GENERATION: 73 ***
+
+ gen = 73***GENERATION: 74 ***
+
+ gen = 74***GENERATION: 75 ***
+
+ gen = 75***GENERATION: 76 ***
+
+ gen = 76***GENERATION: 77 ***
+
+ gen = 77***GENERATION: 78 ***
+
+ gen = 78***GENERATION: 79 ***
+
+ gen = 79***GENERATION: 80 ***
+
+ gen = 80***GENERATION: 81 ***
+
+ gen = 81***GENERATION: 82 ***
+
+ gen = 82***GENERATION: 83 ***
+
+ gen = 83***GENERATION: 84 ***
+
+ gen = 84***GENERATION: 85 ***
+
+ gen = 85***GENERATION: 86 ***
+
+ gen = 86***GENERATION: 87 ***
+
+ gen = 87***GENERATION: 88 ***
+
+ gen = 88***GENERATION: 89 ***
+
+ gen = 89***GENERATION: 90 ***
+
+ gen = 90***GENERATION: 91 ***
+
+ gen = 91***GENERATION: 92 ***
+
+ gen = 92***GENERATION: 93 ***
+
+ gen = 93***GENERATION: 94 ***
+
+ gen = 94***GENERATION: 95 ***
+
+ gen = 95***GENERATION: 96 ***
+
+ gen = 96***GENERATION: 97 ***
+
+ gen = 97***GENERATION: 98 ***
+
+ gen = 98***GENERATION: 99 ***
+
+ gen = 99***GENERATION: 100 ***
+
+ gen = 100
+ Generations finished, now reporting solutions
+ Routine successfully exited 
+ 11:06:07 up 114 days, 18:25,  0 users,  load average: 1.12, 1.12, 1.05
+************************************************************
+This is mrcd24.cluster of cluster MERCED.
+Date: Sun Nov 22 11:06:07 MST 2015
+************************************************************
+
+ Enter the problem relevant and algorithm relevant parameters ... 
+ Enter the problem name: 
+ Enter the population size (a multiple of 4) : 
+ Enter the number of generations : 
+ Enter the number of objectives : 
+ Enter the number of constraints : 
+ Enter the number of real variables : 
+ Enter the lower limit of real variable 1 : 
+ Enter the upper limit of real variable 1 : 
+ Enter the lower limit of real variable 2 : 
+ Enter the upper limit of real variable 2 : 
+ Enter the lower limit of real variable 3 : 
+ Enter the upper limit of real variable 3 : 
+ Enter the lower limit of real variable 4 : 
+ Enter the upper limit of real variable 4 : 
+ Enter the lower limit of real variable 5 : 
+ Enter the upper limit of real variable 5 : 
+ Enter the lower limit of real variable 6 : 
+ Enter the upper limit of real variable 6 : 
+ Enter the lower limit of real variable 7 : 
+ Enter the upper limit of real variable 7 : 
+ Enter the lower limit of real variable 8 : 
+ Enter the upper limit of real variable 8 : 
+ Enter the lower limit of real variable 9 : 
+ Enter the upper limit of real variable 9 : 
+ Enter the lower limit of real variable 10 : 
+ Enter the upper limit of real variable 10 : 
+ Enter the lower limit of real variable 11 : 
+ Enter the upper limit of real variable 11 : 
+ Enter the lower limit of real variable 12 : 
+ Enter the upper limit of real variable 12 : 
+ Enter the probability of crossover of real variable (0.6-1.0) : 
+ Enter the probablity of mutation of real variables (1/nreal) : 
+ Enter the value of distribution index for crossover (5-20): 
+ Enter the value of distribution index for mutation (5-50): 
+ Enter the number of binary variables : 
+ Do you want to use gnuplot to display the results realtime (0 for NO) (1 for yes) : 
+ Input data successfully entered, now performing initialization 
+***TEST MESSAGE:1***
+***TEST MESSAGE:2***
+***TEST MESSAGE:3***
+***TEST MESSAGE:4***
+***TEST MESSAGE:5***
+***TEST MESSAGE:6***
+***TEST MESSAGE:7***
+***TEST MESSAGE:8***
+***TEST MESSAGE:9***
+
+ Initialization done, now performing first generation***TEST MESSAGE:11***
+***TEST MESSAGE:12***
+***TEST MESSAGE:13***
+
+ gen = 1***TEST MESSAGE:14***
+***TEST MESSAGE:15***
+***TEST MESSAGE:16***
+***GENERATION: 2 ***
+
+ gen = 2***GENERATION: 3 ***
+
+ gen = 3***GENERATION: 4 ***
+
+ gen = 4***GENERATION: 5 ***
+
+ gen = 5***GENERATION: 6 ***
+
+ gen = 6***GENERATION: 7 ***
+
+ gen = 7***GENERATION: 8 ***
+
+ gen = 8***GENERATION: 9 ***
+
+ gen = 9***GENERATION: 10 ***
+
+ gen = 10***GENERATION: 11 ***
+
+ gen = 11***GENERATION: 12 ***
+
+ gen = 12***GENERATION: 13 ***
+
+ gen = 13***GENERATION: 14 ***
+
+ gen = 14***GENERATION: 15 ***
+
+ gen = 15***GENERATION: 16 ***
+
+ gen = 16***GENERATION: 17 ***
+
+ gen = 17***GENERATION: 18 ***
+
+ gen = 18***GENERATION: 19 ***
+
+ gen = 19***GENERATION: 20 ***
+
+ gen = 20***GENERATION: 21 ***
+
+ gen = 21***GENERATION: 22 ***
+
+ gen = 22***GENERATION: 23 ***
+
+ gen = 23***GENERATION: 24 ***
+
+ gen = 24***GENERATION: 25 ***
+
+ gen = 25***GENERATION: 26 ***
+
+ gen = 26***GENERATION: 27 ***
+
+ gen = 27***GENERATION: 28 ***
+
+ gen = 28***GENERATION: 29 ***
+
+ gen = 29***GENERATION: 30 ***
+
+ gen = 30***GENERATION: 31 ***
+
+ gen = 31***GENERATION: 32 ***
+
+ gen = 32***GENERATION: 33 ***
+
+ gen = 33***GENERATION: 34 ***
+
+ gen = 34***GENERATION: 35 ***
+
+ gen = 35***GENERATION: 36 ***
+
+ gen = 36***GENERATION: 37 ***
+
+ gen = 37***GENERATION: 38 ***
+
+ gen = 38***GENERATION: 39 ***
+
+ gen = 39***GENERATION: 40 ***
+
+ gen = 40***GENERATION: 41 ***
+
+ gen = 41***GENERATION: 42 ***
+
+ gen = 42***GENERATION: 43 ***
+
+ gen = 43***GENERATION: 44 ***
+
+ gen = 44***GENERATION: 45 ***
+
+ gen = 45***GENERATION: 46 ***
+
+ gen = 46***GENERATION: 47 ***
+
+ gen = 47***GENERATION: 48 ***
+
+ gen = 48***GENERATION: 49 ***
+
+ gen = 49***GENERATION: 50 ***
+
+ gen = 50***GENERATION: 51 ***
+
+ gen = 51***GENERATION: 52 ***
+
+ gen = 52***GENERATION: 53 ***
+
+ gen = 53***GENERATION: 54 ***
+
+ gen = 54***GENERATION: 55 ***
+
+ gen = 55***GENERATION: 56 ***
+
+ gen = 56***GENERATION: 57 ***
+
+ gen = 57***GENERATION: 58 ***
+
+ gen = 58***GENERATION: 59 ***
+
+ gen = 59***GENERATION: 60 ***
+
+ gen = 60***GENERATION: 61 ***
+
+ gen = 61***GENERATION: 62 ***
+
+ gen = 62***GENERATION: 63 ***
+
+ gen = 63***GENERATION: 64 ***
+
+ gen = 64***GENERATION: 65 ***
+
+ gen = 65***GENERATION: 66 ***
+
+ gen = 66***GENERATION: 67 ***
+
+ gen = 67***GENERATION: 68 ***
+
+ gen = 68***GENERATION: 69 ***
+
+ gen = 69***GENERATION: 70 ***
+
+ gen = 70***GENERATION: 71 ***
+
+ gen = 71***GENERATION: 72 ***
+
+ gen = 72***GENERATION: 73 ***
+
+ gen = 73***GENERATION: 74 ***
+
+ gen = 74***GENERATION: 75 ***
+
+ gen = 75***GENERATION: 76 ***
+
+ gen = 76***GENERATION: 77 ***
+
+ gen = 77***GENERATION: 78 ***
+
+ gen = 78***GENERATION: 79 ***
+
+ gen = 79***GENERATION: 80 ***
+
+ gen = 80***GENERATION: 81 ***
+
+ gen = 81***GENERATION: 82 ***
+
+ gen = 82***GENERATION: 83 ***
+
+ gen = 83***GENERATION: 84 ***
+
+ gen = 84***GENERATION: 85 ***
+
+ gen = 85***GENERATION: 86 ***
+
+ gen = 86***GENERATION: 87 ***
+
+ gen = 87***GENERATION: 88 ***
+
+ gen = 88***GENERATION: 89 ***
+
+ gen = 89***GENERATION: 90 ***
+
+ gen = 90***GENERATION: 91 ***
+
+ gen = 91***GENERATION: 92 ***
+
+ gen = 92***GENERATION: 93 ***
+
+ gen = 93***GENERATION: 94 ***
+
+ gen = 94***GENERATION: 95 ***
+
+ gen = 95***GENERATION: 96 ***
+
+ gen = 96***GENERATION: 97 ***
+
+ gen = 97***GENERATION: 98 ***
+
+ gen = 98***GENERATION: 99 ***
+
+ gen = 99***GENERATION: 100 ***
+
+ gen = 100
+ Generations finished, now reporting solutions
+ Routine successfully exited 
+ 07:33:59 up 41 days, 21:07,  0 users,  load average: 1.00, 1.02, 1.00
+************************************************************
+This is mrcd11.cluster of cluster MERCED.
+Date: Thu Nov 26 07:33:59 MST 2015
+************************************************************

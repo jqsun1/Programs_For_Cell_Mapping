@@ -1,0 +1,20 @@
+Function name:
+AirfoilPARSEC
+Simulation Date:
+2015-11-2
+D
+12
+O
+3
+N
+5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 
+SubDiv
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+lb
+0.0001, 0.0001, 0.1, 0.01, -2, 0.1, -0.2, 0.001, 0, 0, 0, 0, 
+ub
+0.2, 0.2, 0.6, 0.2, -0.001, 0.6, -0.01, 2, 0.1, 0.1, 10, 20, 
+ Max array length (maxArrLen):
+50000000
+Max temporary array length (maxTempLen):
+50000000

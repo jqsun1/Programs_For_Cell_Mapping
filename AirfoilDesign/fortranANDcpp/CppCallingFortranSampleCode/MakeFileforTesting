@@ -1,0 +1,7 @@
+Type the following commands in terminal to run this code:
+
+gfortran -c testF.f
+g++ -c testC.cpp
+g++ -o test testF.o testC.o -lgfortran
+./test
+

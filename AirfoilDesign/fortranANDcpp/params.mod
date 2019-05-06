@@ -1,0 +1,55 @@
+GFORTRAN module version '10' created from params.f90
+MD5:e4f842b26048dd5c59670ea02591559c -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () () () () ()
+() () ())
+
+()
+
+()
+
+()
+
+()
+
+()
+
+(2 'ibx' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '1480') () 0 () () () 0 0)
+3 'ipx' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '5') () 0 () () () 0 0)
+4 'iqx' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '370') () 0 () () () 0 0)
+5 'isx' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+6 'ivx' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '283') () 0 () () () 0 0)
+7 'iwx' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '48') () 0 () () () 0 0)
+8 'izx' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '418') () 0 () () () 0 0)
+9 'nax' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '800') () 0 () () () 0 0)
+10 'nfx' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '128') () 0 () () () 0 0)
+11 'npx' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '12') () 0 () () () 0 0)
+12 'ntx' 'params' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '2960') () 0 () () () 0 0)
+13 'params' 'params' '' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+)
+
+('ibx' 0 2 'ipx' 0 3 'iqx' 0 4 'isx' 0 5 'ivx' 0 6 'iwx' 0 7 'izx' 0 8
+'nax' 0 9 'nfx' 0 10 'npx' 0 11 'ntx' 0 12 'params' 0 13)

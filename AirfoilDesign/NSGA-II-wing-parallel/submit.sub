@@ -1,0 +1,22 @@
+#! /bin/bash
+#$ -S /bin/bash
+#$ -q all.q
+#$ -cwd
+#$ -N airfoil_parallel
+#$ -j y
+#$ -o log.qlog
+#$ -l mem_free=96G
+#$ -pe smp 20
+#
+# This submission file will run a simple set of commands. All stdout will
+# be captured in test1.qlog (as specified in the SGE command -o above).
+# This job file uses a shared-memory parallel environment and requests 20
+# cores on a single node. This job will also run a global script called
+# merced_node_print that will let the user log the node where a job is
+# run. For more info on this script, cat /usr/local/bin/merced_node_print.
+#
+export OMP_NUM_THREADS=20
+./main 0.2 <input_data/airfoil.in
+
+uptime
+merced_node_print -d

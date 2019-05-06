@@ -1,0 +1,335 @@
+ynaranjani
+/home/ynaranjani/fortranANDcpp
+ 19:26:49 up 95 days,  2:47,  0 users,  load average: 0.02, 0.02, 0.00
+************************************************************
+This is mrcd18.cluster of cluster MERCED.
+Date: Mon Nov  2 19:26:49 MST 2015
+************************************************************
+./AirfoilPARSEC/AirfoilPARSEC_log.dat
+Read from file completed!
+Read from file completed. 697 GA point resulted in 594 initial cells.
+
+SubDivInd = 0. Cells list length = 594
+
+Parallel loop started with 594 cells and their 14256 neighbors...
+/act/sge/default/spool/mrcd18/job_scripts/4057: line 22: 20698 Killed                  ./main
+ynaranjani
+/home/ynaranjani/fortranANDcpp
+ 19:51:34 up 95 days,  3:12,  0 users,  load average: 0.06, 0.03, 0.00
+************************************************************
+This is mrcd12.cluster of cluster MERCED.
+Date: Mon Nov  2 19:51:34 MST 2015
+************************************************************
+./AirfoilPARSEC/AirfoilPARSEC_log.dat
+Read from file completed!
+Read from file completed. 697 GA point resulted in 594 initial cells.
+
+SubDivInd = 0. Cells list length = 594
+
+Parallel loop started with 594 cells and their 14256 neighbors...
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Update Sol: binary search error: cell not found in the gloCell
+Parallel loop started with 8343 cells and their 200232 neighbors...
+Parallel loop started with 52227 cells and their 1253448 neighbors...
+Parallel loop started with 217131 cells and their 5211144 neighbors...
+Parallel loop started with 675341 cells and their 16208184 neighbors...
